@@ -1,0 +1,122 @@
+.main-structure{
+    display: inline-block;
+    height: 100%;
+    width: 319px;
+}
+
+.welcome-text{
+    font-size: 1.8em;
+    font-weight: 600;
+    padding: 15px;
+    font-family: Quicksand;
+    color: #242729;
+    display: inline-block;
+}
+
+.page-text{
+    color: #6f7287;
+    font-size: 1rem;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    margin: 10px 0;
+  
+}
+
+
+.textbox input{
+    padding: 0 10px;
+    margin: 0;
+    font-family: Quicksand;
+    text-align: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-bottom: 2px solid #6f7287;
+}
+
+input:focus{
+    border-bottom: 2px solid #d13239;
+    outline: none !important;
+    color: #d13239;
+    transition: .3s;
+}
+
+.account{
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.account a{
+    color: #d13239;
+    text-decoration: none;
+}
+
+.account a:hover{
+    border-bottom: #d13239 solid 1px;
+    text-decoration: none;
+    color: #d13239;
+
+}
+
+.button{
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.signup-btn{
+    padding: 10px;
+    background: #d13239;
+    font-size: 1rem;
+    color: #f4f4f4;
+    border: #d13239 solid 3px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.signup-btn:hover{
+    opacity: 0.85;
+}
+
+
+.form-container {
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+.welcome-text{
+    font-size: 1.8em;
+    font-weight: 600;
+    padding: 15px;
+    font-family: Quicksand;
+    color: #242729;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.page-text{
+    color: #6f7287;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.alert{
+    text-align: center;
+}

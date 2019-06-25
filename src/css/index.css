@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+
+html,
+body,
+header,
+#app,
+.body-box {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  background-color: #f4f4f4;
+  font-size: 100%;
+  color: #242729;
+  display: block;
+}
+
+.body-box {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.page-body {
+  padding-top: 130px;
+}
+
+a {
+  text-decoration-style: none !important;
+}
+
+a:hover {
+  text-decoration-style: none !important;
+}
