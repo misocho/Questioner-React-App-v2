@@ -1,0 +1,89 @@
+{
+  "name": "m1-react",
+  "version": "1.0.0",
+  "description": "This is the second version of the Questioner React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "start": "serve -s dist ",
+    "heroku-postbuild": "npm run build",
+    "build": "webpack --mode production"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./src/setupTests.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "babel-eslint": "9.x",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.5",
+    "coveralls": "^3.0.3",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "5.x",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^2.2.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0",
+    "react-hot-loader": "^4.8.4",
+    "redux-devtools-extension": "^2.13.8",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fetch-mock": "^7.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.0.0",
+    "sweetalert2": "^8.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misocho/Questioner-React-App-v2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/misocho/Questioner-React-App-v2/issues"
+  },
+  "homepage": "https://github.com/misocho/Questioner-React-App-v2#readme"
+}
