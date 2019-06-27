@@ -8,7 +8,6 @@ module.exports = {
         filename: "index_bundle.js",
         publicPath: "/"
     },
-
     module: {
         rules: [
             {

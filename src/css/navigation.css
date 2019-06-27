@@ -1,0 +1,106 @@
+li {
+    list-style-type: none;
+}
+
+.top-container{
+    height: 580px;
+    margin-bottom: 20px;
+}
+
+#header{
+    background-color: #f4f4f4;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    min-width: auto;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-top: 3px solid #d13239;
+    height: 100px;
+    padding: 10px 100px;
+}
+
+
+.logo{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #d13239;
+}
+
+#top-logo{
+    text-align: center;
+    transition: .3s;
+    font-size: 3em;
+    float: left;
+}
+
+#top-logo p{
+    display: inline-block;
+    padding: 10;
+    margin: 0;
+}
+nav{
+    float: right;
+    text-align: center;
+    transition: .3s;
+    font-weight: bold;
+    margin: 0;
+    top: 20px;
+   right: 0px;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a:hover{
+    border-bottom: #d13239 3px solid;
+}
+
+
+nav ul li a {
+    line-height: 80px;
+    color: #d13239;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #d13239;
+    text-decoration: none;
+}
+
+.black nav ul li a:hover {
+    color: #fff;
+}
+
+.focus{
+    border: #d13239 solid 3px;
+    border-radius: 6px;
+
+}
+
+.black{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.focus:hover{
+    background: #d13239;
+    color: #fff
+}
