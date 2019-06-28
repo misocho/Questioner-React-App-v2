@@ -71,5 +71,5 @@ describe("Test case for LoginComponent functions", () => {
         wrapper.instance().onDismiss()
         expect(display_message).toBeCalled()
         expect(display_message).toHaveBeenCalledWith({ visible: false })
-    })
+    });
 })

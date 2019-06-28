@@ -18,7 +18,7 @@ beforeEach(() => {
 });
 const setup = (props = {}) => {
     return mount(
-        <StaticRouter>
+        <StaticRouter> 
             <Signup {...{ store }} />
         </StaticRouter>
     );
