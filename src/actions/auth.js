@@ -9,9 +9,7 @@ export const login = (data, props) => {
             color: "success",
             visible: true
         });
-        if (data.token) {
-            return data.token;
-        }
+        return data.token;
     }).catch(error => {
         const { data } = error.response;
         props.display_message({
